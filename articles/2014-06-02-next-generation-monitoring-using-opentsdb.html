@@ -16,7 +16,7 @@ Table of contents
 
   - [Abstract](#Abstract)
   - [Background](#Background)
-    - [Performance problems - Welcome to IO-hell](#Performanceproblems)
+    - [Performance problems - Welcome to I/O-hell](#Performanceproblems)
     - [Scaling problems](#Scaling)
     - [Loss of detail](#Loss)
     - [Lack of flexibility](#flexibility)
@@ -89,7 +89,7 @@ In order to collect, store and graph new kinds of metrics an operator would need
 ## The monitoring revolution
 We are currently at the beginning of a monitoring revolution. The advent of cloud computing and big data has created a need for measuring lots of metrics for thousands of machines at small intervals. This has sparked the creation of completely new monitoring components. One of the components where we now have improved alternatives is for efficient metric storage.
 
-The first is [OpenTSDB][10], a "Scalable, Distributed, Time Series Database" that was began development at [StumbleUpon][11] in 2011 and aimed at solving some of the problems with existing monitoring systems. OpenTSDB is built in top of Apache HBase which is a scalable and performant database that builds on top of Apache Hadoop. Hadoop is a series of tools for building large and scalable distributed systems. Back in 2010 Facebook already had [2000 machines in a Hadoop cluster][12] with 21PB (that is 21.000.000 GB) of combined storage.
+The first is **[OpenTSDB][10]**, a "Scalable, Distributed, Time Series Database" that begun development at [StumbleUpon][11] in 2011 and aimed at solving some of the problems with existing monitoring systems. OpenTSDB is built in top of Apache HBase which is a scalable and performant database that builds on top of Apache Hadoop. Hadoop is a series of tools for building large and scalable distributed systems. Back in 2010 Facebook already had [2000 machines in a Hadoop cluster][12] with 21PB (that is 21.000.000 GB) of combined storage.
 
 The second is an interesting newcommer, [**InfluxDB**][13], that began development in 2013 and has the goal of offering scalability and performance without the requirements of HBase/Hadoop.
 
